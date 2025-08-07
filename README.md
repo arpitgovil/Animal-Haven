@@ -1,73 +1,90 @@
-# Welcome to your Lovable project
+# 🐾 Animal Haven
 
-## Project info
+**Animal Haven** is a modern, responsive web platform designed to connect animal shelters with volunteers, donors, and adopters. Built with React, TypeScript, Tailwind CSS, and shadcn-ui, the application provides an intuitive interface for users to explore animal shelters, contribute, and support animal welfare initiatives.
 
-**URL**: https://lovable.dev/projects/28996b17-bcfa-4f38-ae26-e0b09ede2ec1
+🌐 **Live Demo**: [animal-haven-sigma.vercel.app](https://animal-haven-sigma.vercel.app/)  
+📦 **Repository**: [github.com/arpitgovil/Animal-Haven](https://github.com/arpitgovil/Animal-Haven)
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+- 🐶 **Browse Shelters** – View animal shelters and their details in a sleek, card-based layout.
+- 💬 **Contact or Support** – Easily connect with shelters for volunteering, donations, or adoption.
+- 🎨 **Modern UI** – Built with Tailwind CSS and shadcn-ui for a clean, responsive design.
+- ⚡ **Fast & Lightweight** – Powered by Vite and TypeScript for high performance.
+- 🌙 **Dark Mode Support** – Eye-friendly experience with theme toggle.
+- 📱 **Responsive Design** – Fully functional across mobile, tablet, and desktop devices.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/28996b17-bcfa-4f38-ae26-e0b09ede2ec1) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠 Tech Stack
 
-**Use your preferred IDE**
+| Frontend  | Tooling       | Styling       |
+|-----------|---------------|----------------|
+| React     | Vite          | Tailwind CSS   |
+| TypeScript | shadcn-ui     | Lucide Icons   |
+| HTML/CSS  | React Router DOM | Radix UI Primitives |
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📸 Screenshots
 
-Follow these steps:
+> <img width="1902" height="946" alt="image" src="https://github.com/user-attachments/assets/21272e00-b7c2-41d0-8f29-6799c6c96c71" />
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Shelter Cards Page
+- Responsive Views (Mobile/Desktop)
+- Dark Mode UI
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 📦 Getting Started
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### Prerequisites
 
-**Edit a file directly in GitHub**
+- Node.js (v18+ recommended)
+- npm or yarn
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
+📁 Folder Structure
 
-**Use GitHub Codespaces**
+Animal-Haven/
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+├── src/
 
-## What technologies are used for this project?
+│   ├── components/     # Reusable UI components
 
-This project is built with:
+│   ├── pages/          # Page components
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+│   ├── assets/         # Images, icons
 
-## How can I deploy this project?
+│   └── App.tsx         # Main app entry
 
-Simply open [Lovable](https://lovable.dev/projects/28996b17-bcfa-4f38-ae26-e0b09ede2ec1) and click on Share -> Publish.
+├── public/             # Static assets
 
-## Can I connect a custom domain to my Lovable project?
+├── index.html
 
-Yes, you can!
+└── tailwind.config.ts
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
+🤝 Contributing
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Contributions, issues, and feature requests are welcome!
+Feel free to open an issue or submit a pull request.
+
+---
+👨‍💻 Author
+
+Made with ❤️ by Arpit Govil
+---
+
+### Installation
+
+```bash
+git clone https://github.com/arpitgovil/Animal-Haven.git
+cd Animal-Haven
+npm install
+# or
+yarn install
+
+
